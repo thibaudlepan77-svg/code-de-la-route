@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Ce que l'article R413-10 écrit noir sur blanc, sans reformulation.</p>
 <div class="reponse"><b>6</b>valeurs chiffrées dans cet article, réparties sur 5 phrases distinctes.</div>
 <p>Cet article relève de vitesse. Il chiffre masse, vitesse. Les phrases ci-dessous sont reproduites telles qu'elles figurent dans le code, ponctuation et numérotation comprises.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>II.-Toutefois, cette vitesse maximale est relevée à 100 km/ h :</td><td class="n">100 km/ h</td><td>R413-10</td></tr>
 <tr><td>III.-En exploitation, ces vitesses maximales sont abaissées à 70 km/ h pour les autobus et les autocars avec passagers debout.</td><td class="n">70 km/ h</td><td>R413-10</td></tr>
 <tr><td>2° Sur les autoroutes et les routes à chaussées séparées par un terre-plein central pour les véhicules dont le poids est inférieur ou égal à 10 tonnes.</td><td class="n">10 tonnes</td><td>R413-10</td></tr>

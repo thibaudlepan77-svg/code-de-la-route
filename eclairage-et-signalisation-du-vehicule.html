@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Toutes les valeurs chiffrées que le code de la route écrit sur ce sujet, reprises une par une dans la phrase qui les porte, avec le numéro de l'article. Rien n'est résumé, rien n'est arrondi.</p>
 <div class="reponse"><b>106</b>valeurs chiffrées sur ce sujet, réparties sur 44 articles du code.</div>
 <p>La plupart portent sur classe, 55 des 106. Les manuels de révision les reformulent, ce qui suffit presque toujours et trompe le reste du temps. Ici la phrase est celle du code, vous pouvez la vérifier vous-même à l'article indiqué.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>Cette contravention donne lieu de plein droit à la réduction de quatre points du permis de conduire.</td><td class="n">quatre points</td><td>R416-11</td></tr>
 <tr><td>Si la longueur de la remorque ne dépasse pas 6 mètres, les deux feux peuvent être réunis en un appareil unique.</td><td class="n">6 mètres</td><td>R416-14</td></tr>
 <tr><td>3° Les autres véhicules à traction animale en stationnement, à la condition que leur longueur ne dépasse pas 6 mètres.</td><td class="n">6 mètres</td><td>R313-23</td></tr>

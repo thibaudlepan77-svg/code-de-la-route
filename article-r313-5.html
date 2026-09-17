@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Ce que l'article R313-5 écrit noir sur blanc, sans reformulation.</p>
 <div class="reponse"><b>5</b>valeurs chiffrées dans cet article, réparties sur 5 phrases distinctes.</div>
 <p>Cet article relève de eclairage et signalisation du vehicule. Il chiffre classe, distance. Les phrases ci-dessous sont reproduites telles qu'elles figurent dans le code, ponctuation et numérotation comprises.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>III.-Lorsque la largeur d'un tricycle à moteur, d'un quadricycle à moteur ou d'un cyclomoteur à trois roues dépasse 1,30 mètre, il doit être muni de deux feux de position arrière.</td><td class="n">1,30 mètre</td><td>R313-5</td></tr>
 <tr><td>IX.-Le fait, pour tout conducteur d'un véhicule à moteur, de contrevenir aux dispositions du présent article est puni de l'amende prévue pour les contraventions de la troisième classe.</td><td class="n">contraventions de la troisième classe</td><td>R313-5</td></tr>
 <tr><td>XI.-Le fait, pour tout conducteur d'un engin de déplacement personnel motorisé ou d'un cycle, de contrevenir aux dispositions du présent article est puni de l'amende prévue pour les contraventions de la première classe.</td><td class="n">contraventions de la première classe</td><td>R313-5</td></tr>

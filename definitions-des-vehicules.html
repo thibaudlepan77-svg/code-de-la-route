@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Toutes les valeurs chiffrées que le code de la route écrit sur ce sujet, reprises une par une dans la phrase qui les porte, avec le numéro de l'article. Rien n'est résumé, rien n'est arrondi.</p>
 <div class="reponse"><b>83</b>valeurs chiffrées sur ce sujet, réparties sur 1 articles du code.</div>
 <p>La plupart portent sur masse, 44 des 83. Les manuels de révision les reformulent, ce qui suffit presque toujours et trompe le reste du temps. Ici la phrase est celle du code, vous pouvez la vérifier vous-même à l'article indiqué.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>Véhicule de catégorie O4 : véhicule remorqué ayant un poids maximal supérieur à 10 tonnes ;</td><td class="n">10 tonnes</td><td>R311-1</td></tr>
 <tr><td>Véhicule de catégorie O1 : véhicule remorqué ayant un poids maximal inférieur ou égal à 0,75 tonne ;</td><td class="n">0,75 tonne</td><td>R311-1</td></tr>
 <tr><td>Véhicule de catégorie O3 : véhicule remorqué ayant un poids maximal supérieur à 3,5 tonnes et inférieur ou égal à 10 tonnes ;</td><td class="n">3,5 tonnes</td><td>R311-1</td></tr>

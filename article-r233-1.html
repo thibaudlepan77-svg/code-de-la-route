@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Ce que l'article R233-1 écrit noir sur blanc, sans reformulation.</p>
 <div class="reponse"><b>8</b>valeurs chiffrées dans cet article, réparties sur 6 phrases distinctes.</div>
 <p>Cet article relève de permis, points et documents. Il chiffre classe, duree, masse. Les phrases ci-dessous sont reproduites telles qu'elles figurent dans le code, ponctuation et numérotation comprises.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>II. – En cas de perte ou de vol du titre justifiant de l'autorisation de conduire le récépissé de déclaration de perte ou de vol tient lieu de titre pendant un délai de deux mois au plus.</td><td class="n">deux mois</td><td>R233-1</td></tr>
 <tr><td>III. – Le fait de ne pas présenter immédiatement aux agents de l'autorité compétente les éléments exigés par le présent article est puni de l'amende prévue pour les contraventions de la première classe.</td><td class="n">contraventions de la première classe</td><td>R233-1</td></tr>
 <tr><td>3° Pour l'accompagnateur d'un apprenti conducteur, le permis de conduire exigé pour la conduite du véhicule obtenu depuis au moins cinq ans ou l'autorisation d'enseigner la conduite des véhicules à moteur mentionnée aux articles L 212-1 et R.</td><td class="n">cinq ans</td><td>R233-1</td></tr>

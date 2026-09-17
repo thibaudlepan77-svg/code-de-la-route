@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Ce que l'article R411-21 écrit noir sur blanc, sans reformulation.</p>
 <div class="reponse"><b>2</b>valeurs chiffrées dans cet article, réparties sur 2 phrases distinctes.</div>
 <p>Cet article relève de signalisation routiere. Il chiffre classe, duree. Les phrases ci-dessous sont reproduites telles qu'elles figurent dans le code, ponctuation et numérotation comprises.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>Le fait, pour tout conducteur, de contrevenir aux dispositions portant établissement de barrières de dégel est puni de l'amende prévue pour les contraventions de la cinquième classe.</td><td class="n">contraventions de la cinquième classe</td><td>R411-21</td></tr>
 <tr><td>Tout conducteur coupable de l'infraction prévue au présent article encourt également la peine complémentaire de suspension, pour une durée de trois ans au plus, du permis de conduire, cette suspension pouvant être limitée à la conduite en dehors de l'activité professionnelle.</td><td class="n">trois ans</td><td>R411-21</td></tr>
 </table>

@@ -48,7 +48,18 @@ padding:11px 20px;font-weight:600;font-size:15px;border-radius:3px}
 .suite ul{padding-left:18px}
 .pied{margin-top:48px;padding-top:20px;border-top:1px solid var(--trait);
 font-size:14px;color:var(--doux)}
-a{color:var(--accent)}</style>
+a{color:var(--accent)}
+@media (max-width:640px){
+main{padding:28px 16px 56px}
+h1{font-size:30px}
+table{display:block}
+tbody,tr,td{display:block;width:100%}
+tr.entete{display:none}
+tr{border-bottom:1px solid var(--trait);padding:12px 0}
+td{border:none;padding:1px 0}
+td.n{text-align:left;font-size:1.12em;font-weight:700;color:var(--accent)}
+td:last-child{font-size:.82em;letter-spacing:.05em;color:var(--doux)}
+}</style>
 </head>
 <body>
 <main>
@@ -58,7 +69,7 @@ a{color:var(--accent)}</style>
 <p class="chapeau">Ce que l'article R313-26 écrit noir sur blanc, sans reformulation.</p>
 <div class="reponse"><b>3</b>valeurs chiffrées dans cet article, réparties sur 2 phrases distinctes.</div>
 <p>Cet article relève de eclairage et signalisation du vehicule. Il chiffre classe, masse. Les phrases ci-dessous sont reproduites telles qu'elles figurent dans le code, ponctuation et numérotation comprises.</p>
-<table><tr><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
+<table><tr class="entete"><th>Ce que dit le code</th><th>Valeur</th><th>Article</th></tr>
 <tr><td>Le fait de contrevenir aux dispositions du présent article est puni de l'amende prévue pour les contraventions de la troisième classe.</td><td class="n">contraventions de la troisième classe</td><td>R313-26</td></tr>
 <tr><td>Le doublement des feux rouges, des feux stop et des feux indicateurs de direction arrière est autorisé sur les véhicules à moteur dont le poids total autorisé en charge excède 3, 5 tonnes et les véhicules remorqués dont le poids total autorisé en charge excède 0, 75 tonne, dans les conditions fixées par arrêté du ministre chargé des transports.</td><td class="n">5 tonnes</td><td>R313-26</td></tr>
 <tr><td>Le doublement des feux rouges, des feux stop et des feux indicateurs de direction arrière est autorisé sur les véhicules à moteur dont le poids total autorisé en charge excède 3, 5 tonnes et les véhicules remorqués dont le poids total autorisé en charge excède 0, 75 tonne, dans les conditions fixées par arrêté du ministre chargé des transports.</td><td class="n">75 tonne</td><td>R313-26</td></tr>
