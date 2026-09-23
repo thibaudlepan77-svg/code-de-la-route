@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://thibaudlepan77-svg.github.io/code-de-la-route/sitemap.xml
+Sitemap: https://thibaudlepan77-svg.github.io/code-de-la-route/sitemap.txt
